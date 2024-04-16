@@ -113,6 +113,7 @@ body {
   .card {
     width: 95%;
     max-width: none;
+    margin-bottom: 50px;
   }
 }
 
