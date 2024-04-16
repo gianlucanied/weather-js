@@ -107,3 +107,27 @@ body {
   margin-top: 10px;
   display: none;
 }
+
+/* Stili per schermi di piccole dimensioni */
+@media screen and (max-width: 600px) {
+  .card {
+    width: 95%;
+    max-width: none;
+  }
+}
+
+/* Stili per schermi di dimensioni medie */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+  .card {
+    width: 80%;
+    max-width: none;
+  }
+}
+
+/* Stili per schermi di grandi dimensioni */
+@media screen and (min-width: 901px) {
+  .card {
+    width: 60%;
+    max-width: 470px;
+  }
+}
